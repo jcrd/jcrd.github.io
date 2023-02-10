@@ -30,7 +30,7 @@ export default function User({ name }) {
       href={user.html_url}
       class="flex max-w-lg shadow-lg rounded-lg outline outline-slate-100"
     >
-      <div class="flex items-center justify-center gap-x-10 py-4">
+      <div class="flex items-center justify-center gap-x-4 md:gap-x-10 py-4">
         <div class="w-2/12">
           <img src={user.avatar_url} class="rounded-full" />
         </div>
